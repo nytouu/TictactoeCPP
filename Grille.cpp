@@ -23,7 +23,14 @@
     }
         
     void Grille::affiche(){
-        // à compléter
+        for(int j=0;j<_nombreLignes;j++){
+            for(int i=0;i<_nombreColonnes;i++){
+                std::cout << this->getContent(i,j);
+                if(i!=_nombreColonnes-1)  std::cout << " | ";
+            }
+            std::cout << std::endl;
+            if(j!=_nombreLignes-1)  std::cout << " ------- " << std::endl;
+        }
     }
 
     void Grille::resetContent(){for(int i=0;i<_nombreLignes*_nombreColonnes;i++) _tableau[i] = ' ';}
