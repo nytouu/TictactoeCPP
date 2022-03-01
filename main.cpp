@@ -1,7 +1,5 @@
 #include "Grille.cpp"
 #include "Tictactoe.cpp"
-#include "Puissance4.cpp"
-#include "JeuGrille.h"
 #include <iostream>
 #include <string>
 
