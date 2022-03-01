@@ -2,10 +2,9 @@
 #define TICTACTOE_H
 
 #include "Grille.h"
-#include "JeuGrille.h"
 #include <string>
 
-class Tictactoe : public JeuGrille{
+class Tictactoe {
 
     private:
         Grille _grilleDeJeu;
